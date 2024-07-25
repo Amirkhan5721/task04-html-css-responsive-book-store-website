@@ -62,3 +62,48 @@
     text-align: center;
     margin: 10px 0;
 }
+
+
+/*Image Section*/
+h2 {
+    margin-bottom: 10px;
+}
+.selling-books {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
+.books {
+    height: 350px;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+.books img {
+    width: 350px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.books h6 {
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    /* top: -120px; */
+    font-weight: bolder;
+    font-size: large;
+    padding: 10px;
+    bottom: 120px;
+    color: white;
+}
+.books button {
+    background: black ;
+    color: white;
+    width: 10vw;
+    height: 7vh;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -120px;
+}
