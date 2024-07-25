@@ -40,3 +40,25 @@
     color: black;
 }
 
+/*Home Style*/
+.home-page {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.home-page input {
+    width: 220px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+}
+.home-page img {
+    width: 150px;
+}
+.text {
+    margin-top: 40px;
+}
+.text h1,p {
+    text-align: center;
+    margin: 10px 0;
+}
