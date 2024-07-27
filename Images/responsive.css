@@ -1,0 +1,163 @@
+@media (max-width: 420px) {
+    #logo {
+        margin: -15px;
+    }
+    #logo img {
+        margin: 15px;
+        width: 100px;
+    }
+    .navbar {
+        position: sticky;
+        padding: 20px 0;
+        top: 0;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .home-page {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .home-page h1 {
+        font-size: 20px;
+    }
+    .home-page input {
+        width: 120px;
+        margin-top: 20px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    .home-page img {
+        width: 80px;
+    }
+    #best-sellers {
+        margin: 30px 0; 
+        text-align: center;
+    }
+    .selling-books {
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+
+    }
+    .books {
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 350px;
+        background-color: white;
+        border-radius: 5px;
+        padding-bottom: 30px;
+    }
+    .books img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 300px;
+        border: 1px solid rgb(181, 176, 176);
+        border-radius: 9px;
+    }
+    .books button {
+        position: relative;
+        top: -130px;
+    }
+    .connection {
+    width: 60%;
+    margin: -30px auto;
+    border-radius: 12px;
+    }
+    .connection h3 {
+        text-align: center;
+        padding-top: 20px;
+        font-size: medium;
+        background-color: #e5edf3;
+    }
+    .connect img {
+        width: 40px;
+    }
+    footer {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    footer p {
+        font-size: medium;
+    }
+    footer :first-child {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: x-large;
+    }
+    footer div a {
+        text-align: center;
+        color: black;
+        display: block;
+        font-size: medium;
+        text-decoration: none;
+    }
+    footer img {
+        visibility: hidden;
+    }
+    .copyright p{
+        margin-top: 0 auto;
+        font-size: medium;
+
+    }
+}
+@media (max-width: 600px) {
+    footer img {
+        visibility: hidden;
+    }
+    
+}
+
+
+@media (max-width:1092px) {
+    h2 {
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .selling-books {       
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .books {
+        
+        height: 200px;
+        background-color: red;
+        border-radius: 5px;
+        padding-bottom: 15px;
+    }
+    .books img {
+        width: 350px;
+        height: 320px;
+        /* border: 2px solid red; */
+        border-radius: 9px;
+    }
+    .books button {
+        background: black ;
+        color: white;
+        width: 10vw;
+        height: 7vh;
+        border: none;
+        border-radius: 7px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: -120px;
+        cursor: pointer;
+    }
+    .books button:hover {
+        color: black;
+        border-radius: 7px;
+        background-color: white;
+        transition: 0.6s ease-in;
+        transform: rotate(-10deg );
+        font-size: 15px;
+        border: none;
+    }   
+}
